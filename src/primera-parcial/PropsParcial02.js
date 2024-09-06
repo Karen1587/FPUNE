@@ -1,4 +1,4 @@
-// src/primera-parcial/PropsParcial02.js
+
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 

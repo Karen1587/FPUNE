@@ -1,4 +1,4 @@
-// src/primera-parcial/ComponenteParcial01.js
+
 import React, { useState } from 'react';
 import { View, Text, TextInput, FlatList, TouchableOpacity, Image, StyleSheet } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
@@ -28,7 +28,7 @@ const ComponenteParcial01 = () => {
       <Text style={styles.title}>Examen Primera Parcial</Text>
       
       <Image 
-  source={require('../assets/gati.jpg')}  // Subir un nivel para salir de "primera-parcial"
+  source={require('../assets/gati.jpg')}  
   style={styles.logo}
 />
 
